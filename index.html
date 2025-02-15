@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <img src="LOGO.png" alt="Logo" class="logo">
+        <nav class="nav-links">
+            <a href="index.html" target="_blank" class="hover">Home</a>
+            <a href="about.html"  class="hover">About Us</a>
+            <a href="student-zone.html"  class="hover">Student Zone</a>
+            <a href="courses.html"  class="hover">Courses</a>
+            <a href="contact.html"  class="hover">SING IN</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h2>Welcome to Our Excel Net Computer Center</h2>
+        <p>Select an option from the navigation menu to get started.</p>
+                  <!-- img -->
+        <div class="container-2 ">
+            <div class="slide-con">
+                <div class="slide-img img-main-1">
+                    <!-- <img src="img1.png" alt=""> -->
+                </div>
+                <div class="slide-img img-main-2 ">
+                    <!-- <img src="img2.png" alt=""> -->
+                </div>
+                <div class="slide-img img-main-3">
+                    <!-- <img src="img3.jpg" alt=""> -->
+                </div>
+                <!-- <div class="slide-img img-main-4"></div> -->
+            </div>
+        </div>
+
+
+          </main>
+    <head>
+
+        <title>Education Page - Prashant Yadav</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+         .container-2{
+            height: 69vh;
+            width: 1500vh;
+         }
+
+            .img-main-1{
+                height: 68vh;
+                width:500vw;
+                background-color: #a5761f;
+                background-image: url("img1.png");
+                background-size: cover;
+                border-radius: 30px;
+            }
+            .img-main-2{
+                height: 68vh;
+                width:500vw;
+                background-color: #a5761f;
+                background-image: url("img2.png");
+                background-size: cover;
+                margin-left: 100px;
+                border-radius: 30px;
+                
+            }
+            .img-main-3{
+                height: 68vh;
+                width:500vw;
+                background-color: #a5761f;
+                background-image: url("img3.jpg");
+                background-size: cover;
+                margin-left: 100px;
+                border-radius: 30px;
+
+            }
+            /* .img-main-4{
+                height: 68vh;
+                width:500vw;
+                background-color: #a5761f;
+                background-image: url("img-4.jpg");
+                background-size: cover;
+                margin-left: 100px;
+            }
+            .img-main-5{
+                height: 68vh;
+                width:500vw;
+                background-color: #a5761f;
+                background-image: url("img-5.jpg");
+                background-size: cover;
+                margin-left: 100px;
+            } */
+            body {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                /* background: linear-gradient(135deg, #2d223a, #a5761f); */
+                color: #fff;
+                line-height: 1.6;
+                background-color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 40px 20px;
+                
+            }
+            .container-2 {
+                height: 350px;
+                margin: auto;
+                position: relative;
+                width: 90%;
+                display: grid;
+                place-items: center;
+            }
+            .slide-con{
+                display: flex;
+                 width: calc(1000px*2.5); 
+                animation: scroll 20s linear infinite;
+            }
+            @keyframes scroll {
+                0%{
+                    transform: translateX(0);
+                }
+                100%{
+                    transform: translateX(calc(-1000px*2.5));
+                }
+            }
+            /* h1 {
+                font-size: 2.5rem;
+                text-align: center;
+                margin-bottom: 40px;
+                color: #fff;
+            } */
+            h2 {
+                font-size: 2rem;
+                color: #ffeb3b;
+                margin-bottom: 20px;
+            }
+            .education-section, .skills-section, .achievements-section {
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                border-radius: 15px;
+                padding: 20px;
+                margin-bottom: 30px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            .education-item, .skill-item, .achievement-item {
+                margin-bottom: 20px;
+            }
+            .education-item h3, .skill-item h3, .achievement-item h3 {
+                font-size: 1.5rem;
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .education-item p, .skill-item p, .achievement-item p {
+                font-size: 1.1rem;
+                color: #e0e0e0;
+                margin: 5px 0;
+            }
+            .skills-section ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            .skills-section ul li {
+                background: rgba(255, 255, 255, 0.2);
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                color: #fff;
+            }
+            footer {
+                text-align: center;
+                padding: 20px;
+                background: rgba(0, 0, 0, 0.3);
+                margin-top: 40px;
+            }
+            footer p {
+                margin: 0;
+                color: #e0e0e0;
+            }
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2rem;
+                }
+                h2 {
+                    font-size: 1.8rem;
+                }
+                .education-item h3, .skill-item h3, .achievement-item h3 {
+                    font-size: 1.3rem;
+                }
+                .education-item p, .skill-item p, .achievement-item p {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Education & Skills</h1>
+    
+            <!-- Education Section -->
+            <div class="education-section">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Master Diploma in Computer Applications (MDCA)</h3>
+                    <p><strong>Institute:</strong> XYZ Institute of Technology</p>
+                    <p><strong>Duration:</strong> 2021 - 2022</p>
+                    <p><strong>Grade:</strong> A+</p>
+                </div>
+                <div class="education-item">
+                    <h3>Advanced Diploma in Computer Applications (ADCA)</h3>
+                    <p><strong>Institute:</strong> ABC Computer Education</p>
+                    <p><strong>Duration:</strong> 2020 - 2021</p>
+                    <p><strong>Grade:</strong> A</p>
+                </div>
+            </div>
+    
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: C, C++, Python</li>
+                    <li>Web Development: HTML, CSS, JavaScript, React</li>
+                    <li>Database Management: MySQL, MongoDB</li>
+                    <li>Software Tools: MS Office, Photoshop</li>
+                    <li>Problem Solving & Analytical Thinking</li>
+                </ul>
+            </div>
+    
+            <!-- Achievements Section -->
+            <div class="achievements-section">
+                <h2>Achievements</h2>
+                <div class="achievement-item">
+                    <h3>Best Student Award</h3>
+                    <p>Awarded for outstanding performance in academics and extracurricular activities.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3> Winner</h3>
+                    <p>Won first prize in a national-level  competition.</p>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <p style="text-align: center; padding: 1rem; background-color: #333; color: white;">
+            © 2025 Education Website. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Particle Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        canvas {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Scene Setup
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true });
+        
+        // Renderer Configuration
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Particle System
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particleCount = 5000;
+        
+        // Generate Random Particles Position
+        const posArray = new Float32Array(particleCount * 3);
+        for(let i=0; i<particleCount*3; i++) {
+            posArray[i] = (Math.random() - 0.5) * 5;
+        }
+
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+
+        // Particle Material
+        const particlesMaterial = new THREE.PointsMaterial({
+            size: 0.005,
+            color: '#00ff88',
+            transparent: true,
+            blending: THREE.AdditiveBlending
+        });
+
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+
+        camera.position.z = 3;
+
+        // Mouse Interaction
+        const mouse = { x:0, y:0 }
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = (e.clientX / window.innerWidth) - 0.5;
+            mouse.y = (e.clientY / window.innerHeight) - 0.5;
+        });
+
+        // Animation Loop
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            // Particle Movement
+            particlesMesh.rotation.y += 0.001;
+            particlesMesh.rotation.x += 0.001;
+            
+            // Mouse Follow Effect
+            camera.position.x += (mouse.x * 2 - camera.position.x) * 0.01;
+            camera.position.y += (-mouse.y * 2 - camera.position.y) * 0.01;
+            camera.lookAt(scene.position);
+
+            renderer.render(scene, camera);
+        }
+
+        // Handle Window Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        animate();
+    </script>
+</body>
+</html>
